@@ -31,4 +31,7 @@ console.log(
   'Elf ' + maxCaloriesElf + ' has the most calories at ' + maxCalories
 )
 
-console.log(elfCaloriesArray[0], elfCaloriesArray[1], elfCaloriesArray[2])
+console.log(
+  'The top three Elves carrying the most Calories are carrying a total of:',
+  elfCaloriesArray[0] + elfCaloriesArray[1] + elfCaloriesArray[2]
+)
