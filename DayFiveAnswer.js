@@ -15,7 +15,8 @@ const stacks = [
 ].map((stack) => stack.split(''))
 
 const moveN = (from, to, n) =>
-  stacks[to].push(...stacks[from].splice(-n).reverse())
+  // stacks[to].push(...stacks[from].splice(-n).reverse())
+  stacks[to].push(...stacks[from].splice(-n))
 
 for (const line of input.split('\n')) {
   const x = line.split(' ')
